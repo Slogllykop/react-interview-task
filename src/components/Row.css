@@ -1,0 +1,13 @@
+.row {
+    border-top: 0.25rem solid;
+    text-align: center;
+}
+
+.row-btn {
+    width: 35%;
+}
+
+.rows-container {
+    overflow-y: scroll;
+    height: 70vh;
+}

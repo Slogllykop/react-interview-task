@@ -1,0 +1,49 @@
+.content-wrapper {
+    border: 0.25rem solid;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.table-head {
+    text-align: center;
+    padding-block: 1rem;
+    border-bottom: 0.25rem solid;
+}
+
+.btn {
+    padding: 0.25rem 0.5rem;
+    width: 50%;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.btn.small {
+    width: unset;
+    font-size: 0.75rem;
+}
+
+.input-btns,
+.headings,
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-block: 1rem;
+}
+
+.headings {
+    text-align: center;
+}
+.heading {
+    color: lightcoral;
+}
+
+.bottom-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 0.25rem);
+    background: black;
+    border-top: 0.25rem solid;
+    padding-block: 1rem;
+}
